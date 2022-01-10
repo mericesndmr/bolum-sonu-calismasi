@@ -8,7 +8,7 @@ body{
     justify-content: space-between;
 }
 
-img{
+.icon{
     width: 100px;
     cursor: pointer;
     border-radius: 100%;
@@ -69,6 +69,44 @@ h2{
     color: cadetblue;
     font-family:'Courier New', Courier, monospace;
 }
+.dog{
+    width: 30%;
+}
+
+.images-container{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+align-content: stretch;
+flex-wrap: wrap;
+}
+
+.images-container > img{
+    width: 20%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     width: 100%;
@@ -91,4 +129,5 @@ footer > nav{
     align-content: stretch;
     align-items: center;
     list-style: none;
+    padding: 10px;
 }
